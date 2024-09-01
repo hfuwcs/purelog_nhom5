@@ -37,6 +37,7 @@ disqus: purelog-jekyll
 
 author: Brennan K. Brown
 author_bio: >-
+  Fuc đây nè
   Hey there! 😄 My name is Brennan, I'm a 25-year-old Métis web developer and 
   content strategist from Winnipeg, Manitoba and currently reside in Calgary, 
   Alberta. I've recently compeleted a Full Stack Developer Program at EvolveU, 
@@ -53,7 +54,7 @@ kramdown:
   syntax_highlighter: rouge
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: null
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
