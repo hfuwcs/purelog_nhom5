@@ -1,7 +1,19 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-tilte: example
-layout: 'page'
 ---
+tilte: example
+layout: default
+---
+
+<article class="page post-entry">
+
+    <header>
+        <h1>{{ page.title | escape }}</h1>
+    </header>
+
+    <div class="page-content">
+        {{ content | safe}}
+    </div>
+
+</article>
