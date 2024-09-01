@@ -14,5 +14,5 @@ collections:
       - {label: "Date", name: "date", widget: "date"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list", default: ["post"] }
-       - {label: "Category", name: "category", widget: "string"}
+      - {label: "Category", name: "category", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
